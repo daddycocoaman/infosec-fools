@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "infosec-fools"
+version = "1.0.0"
+description = "Are you going to Hacker Summer Camp 2022?"
+authors = ["Leron Gray <daddycocoaman@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "infosec_fools"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.4.1"
+rich = "^12.4.4"
+
+[tool.poetry.scripts]
+infosec-fools = "infosec_fools.main:app"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.10.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
