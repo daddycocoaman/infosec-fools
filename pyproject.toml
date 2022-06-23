@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "infosec-fools"
-version = "1.0.0"
+version = "1.0.1"
 description = "Are you going to Hacker Summer Camp 2022?"
 authors = ["Leron Gray <daddycocoaman@gmail.com>"]
 license = "MIT"
