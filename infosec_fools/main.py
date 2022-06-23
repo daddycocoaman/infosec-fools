@@ -1,9 +1,6 @@
-from turtle import color
 import typer
 from rich import print
 from rich.prompt import Confirm
-from rich.highlighter import Highlighter
-from random import randint
 
 app = typer.Typer(
     name="infosec_fools", help="CLI tool to determine if you are an infosec fool"
